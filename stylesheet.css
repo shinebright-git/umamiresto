@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 body {
   font-family: 'Itim', cursive;
   background-image: url(https://raw.githubusercontent.com/shinebright-git/umamiresto/master/photo-1492998680170-81f8863d8d2d.jpg)
+  background-size: cover;
 }
 
 a {
@@ -126,7 +127,7 @@ header {
 }
 
 .lesson-icon {
-  position: relative;
+  position: absolute;
 }
 
 .lesson-icon p {
