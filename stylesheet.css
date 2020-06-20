@@ -12,9 +12,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: 'Itim', cursive;
-  background-image: url(https://raw.githubusercontent.com/shinebright-git/umamiresto/master/photo-1492998680170-81f8863d8d2d.jpg)
-  background-size: cover;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -33,15 +31,25 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  color: brown;
+  background-image: url(https://www.dara.co.id/wp-content/uploads/2019/12/inperse.jpg);
+  background-size: cover;
+  color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
   opacity: 0.7;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: yellow;
+}
+.top-wrapper h2 {
+  font-size: 23px;
+  opacity: 0.7;
+  letter-spacing: 6px;
+  margin-bottom: 15px;
+  
 }
 
 .top-wrapper p {
@@ -49,6 +57,26 @@ a {
   margin-bottom: 3px;
 }
 
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
 }
 
 .btn {
@@ -57,6 +85,7 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -70,15 +99,17 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(225,112,85, 0.8);
+  background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  color: white;
-  font-size: 60px;
+  width: 154px;
+  margin-top: 20px;
+  
+  
 }
 
 .header-left {
@@ -86,7 +117,7 @@ header {
 }
 
 .header-right {
-  float: left;
+  float: right;
   margin-right: -25px;
 }
 
@@ -127,7 +158,7 @@ header {
 }
 
 .lesson-icon {
-  position: absolute;
+  position: relative;
 }
 
 .lesson-icon p {
@@ -161,7 +192,12 @@ header {
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
 }
-
+@keyframes message-wrapper {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
 .message:active {
   position: relative;
   top: 7px;
@@ -175,6 +211,7 @@ footer img {
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
 }
 
 footer {
@@ -190,4 +227,3 @@ footer {
   padding: 21px 0;
   display: none;
 }
-
