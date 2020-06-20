@@ -41,13 +41,13 @@ a {
   font-size: 35px;
   letter-spacing: 5px;
   margin-bottom: 15px;
-  color: yellow;
+  color: lilac;
 }
+
 .top-wrapper h2 {
   font-size: 23px;
   letter-spacing: 6px;
   margin-bottom: 15px;
-  
 }
 
 .top-wrapper p {
@@ -61,10 +61,6 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
 }
 
 .facebook {
