@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 body {
   font-family: 'Itim', cursive;
+  background-image: url(https://raw.githubusercontent.com/shinebright-git/umamiresto/master/photo-1492998680170-81f8863d8d2d.jpg)
 }
 
 a {
@@ -31,7 +32,6 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://raw.githubusercontent.com/shinebright-git/umamiresto/master/photo-1492998680170-81f8863d8d2d.jpg)
   color: brown;
   text-align: center;
 }
