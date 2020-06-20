@@ -19,4 +19,20 @@ a {
 
 .top-wrapper {
 	background-image: url(https://github.com/shinebright-git/umamiresto/raw/master/photo-1492998680170-81f8863d8d2d.jpg)
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
 }
