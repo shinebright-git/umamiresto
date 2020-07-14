@@ -1,57 +1,43 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I71 Team</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://i0.wp.com/www.jokowinomics.id/wp-content/uploads/2020/01/logo-indonesia-maju-transparan.fw_-1-e1579765588286.png?fit=1388%2C371&ssl=1">
-        </div>
-        <!-- Tambahkan ikon menu dibawah -->
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-           <a href="#">Home</a>
-          <a href="#">Members</a>
-          <a href="#">Our Contact</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>Welcome to TimI71 Digital Talent</h1>
-        <h2>Maju Anak Muda Indonesia</h2>
-        <p>Kami dapat membantu Anda mempelajari pemrograman</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Login with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Login with Twitter</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        
-        
-        
-        
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        
-        <span class="btn message">Join with Us!</span>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://i0.wp.com/www.jokowinomics.id/wp-content/uploads/2020/01/logo-indonesia-maju-transparan.fw_-1-e1579765588286.png?fit=1388%2C371&ssl=1">
-        <p>by I71 team, 2020.</p>
-      </div>
-    </footer>
+    <div class ="calculator">
+		<input type="text" class="calculator-screen" value="0" disabled />
+		<div class="calculator-keys">
+			<div class="row">
+				<button class="all-clear">AC</button>
+				<button class="percentage">%</button>
+				<button class="operator" value="/">&divide;</button>
+			</div>
+			<div class="row">
+				<button class="number" value="7">7</button>
+				<button class="number" value="8">8</button>
+				<button class="number" value="9">9</button>
+				<button class="operator" value="*">&times;</button>
+			</div>
+			<div class="row">
+				<button class="number" value="4">4</button>
+				<button class="number" value="5">5</button>
+				<button class="number" value="6">6</button>
+				<button class="operator" value="-">-</button>
+			</div>
+			<div class="row">
+				<button class="number" value="1">1</button>
+				<button class="number" value="2">2</button>
+				<button class="number" value="3">3</button>
+				<button class="operator" value="+">+</button>
+			</div>
+			<div class="row">
+				<button class="number zero-btn" value="0">0</button>
+				<button class="decimal" value=".">.</button>
+				<button class="equal-sign">=</button>
+			</div>
+		</div>
+	</div>
   </body>
 </html>
